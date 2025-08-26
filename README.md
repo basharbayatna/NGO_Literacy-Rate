@@ -2,6 +2,13 @@
 
 This repository contains the data cleaning, exploration, and visualization of global literacy rates. The analysis was performed using Python, Pandas, Seaborn, and Matplotlib in Google Colab.
 
+## Project Context
+
+Your task is to clean and explore data for a **non-profit organization focused on promoting and increasing youth literacy rates**. They are particularly interested in understanding where they should focus their next project and what strategies to use to have the biggest impact in increasing youth literacy rates in that area.  
+
+This analysis aims to provide **insights on literacy rates across regions, genders, and age groups**, helping the organization make data-driven decisions.
+
+
 
 ---
 
