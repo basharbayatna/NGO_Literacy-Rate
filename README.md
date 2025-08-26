@@ -86,20 +86,13 @@ Rates at or near **100%** indicate that nearly every individual in that age and 
 
 ## Visuals
 
-**Region Count**  
-![Region Count](images/region_count.png)
-
-**Year Distribution**  
-![Year KDE](images/year_kde.png)
-
-**Literacy Rate by Region**  
-![Region Literacy](images/literacy_region.png)
 
 **Literacy Rate by Gender**  
-![Gender Literacy](images/literacy_gender.png)
+<img width="621" height="505" alt="Distributions of Literacy rate across Gender" src="https://github.com/user-attachments/assets/d0e9f1c8-f545-4b88-ac53-5062f99f20c9" />
 
 **Literacy Rate by Age and Gender**  
-![Age Gender Literacy](images/literacy_age_gender.png)
+<img width="682" height="495" alt="Distributions of Literacy rate across Age and Gender" src="https://github.com/user-attachments/assets/c1be393a-ba70-4daf-b0fe-8c285ae28864" />
+
 
 ---
 
