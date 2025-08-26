@@ -2,18 +2,13 @@
 
 This repository contains the data cleaning, exploration, and visualization of global literacy rates. The analysis was performed using Python, Pandas, Seaborn, and Matplotlib in Google Colab.
 
----
-
-## Open in Colab
-
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/)
 
 ---
 
 ## Dataset
 
-- **File:** `literacy_rates_updated.csv`  
-- **Link:** [Download Dataset](YOUR_DATASET_LINK_HERE)
+
+- **Link:**(https://docs.google.com/spreadsheets/d/1wS3BIjAdGRQHTwGAG5adwj0Mi0Q6HRdKmc05eG4YCmI/edit?gid=1121421486#gid=1121421486)
 
 ### Sample Data
 
@@ -27,12 +22,22 @@ This repository contains the data cleaning, exploration, and visualization of gl
 
 ---
 
+## Literacy Rate Definition
+
+Literacy rate is calculated as the number of literate persons in a specific age and gender group divided by the total number of persons in that group.  
+
+A person is considered **literate** if they are able to **read and write, with understanding, a short, simple statement about everyday life**.  
+
+Rates at or near **100%** indicate that nearly every individual in that age and gender group is able to read and write at least at a basic level.
+
+---
+
 ## Data Cleaning
 
 - **Removed duplicates** to ensure no repeated records.  
 - **Handled missing values**:  
-  - Missing regions were labeled as `MISSING`.  
-  - Missing literacy rates were set to `-1`.  
+  - Missing regions labeled as `MISSING`.  
+  - Missing literacy rates set to `-1`.  
 - **Fixed typos** and inconsistencies in `Year` and `Gender` columns.  
 - **Converted data types**: `Year` to integer and `Literacy rate` to float.  
 - **Final check** confirmed no duplicates, missing values, or inconsistencies remain.
@@ -96,6 +101,7 @@ This repository contains the data cleaning, exploration, and visualization of gl
 - Data cleaning addressed **duplicates, missing values, typos, and incorrect data types**.  
 - Univariate plots reveal **distribution across regions and years**.  
 - Multivariate plots highlight **differences in literacy by region, gender, and age**.  
+- Literacy rates provide insight into **the ability of populations to read and write**, with higher values indicating nearly universal literacy in the group.  
 - The cleaned dataset is ready for further analysis or modeling.
 
 ---
@@ -106,5 +112,5 @@ This repository contains the data cleaning, exploration, and visualization of gl
 - Matplotlib  
 - Seaborn  
 
-**Dataset:** `literacy_rates_updated.csv`  
+
 **Environment:** Google Colab
